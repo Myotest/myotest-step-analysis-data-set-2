@@ -1,14 +1,23 @@
 {
   "name": "myotest-step-analysis-data-set-2",
-  "version": "0.1.0",
-  "description": "14253 samples representing 211 steps, recorder with TiTag",
+  "version": "1.0.1",
+  "description": "Pre-recorded 3 axes accelerometer signal data set, walk in varying environment, sensor worn on the belt",
   "keywords": [
     "Myotest",
-    "myotest"
+    "myotest",
+    "library",
+    "step analysis",
+    "step counter",
+    "walk",
+    "run",
+    "prerecorded data"
     ],
-  "author": "Nicolas Marty <nim@myotest.com>",
+  "author": "Myotest R&D Team",
+  "repository": {
+    "url": "git@github.com:Myotest/myotest-step-analysis-data-set-2",
+    "type": "git"
+  },
+  "homepage": "https://github.com/Myotest/myotest-step-analysis-data-set-2",
   "license": "Apache-2.0",
-  "dependencies": {
-    "myotest-prerecorded-data-collection": "~0.2.0"
-  }
+  "dependencies": {}
 }
