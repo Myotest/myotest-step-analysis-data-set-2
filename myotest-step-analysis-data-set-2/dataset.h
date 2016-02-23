@@ -1,30 +1,30 @@
 /* **************************************************************************
 *
 *
-     __  __             _            _      _____             
-    |  \/  |           | |          | |    / ____|    /\      
-    | \  / |_   _  ___ | |_ ___  ___| |_  | (___     /  \     
-    | |\/| | | | |/ _ \| __/ _ \/ __| __|  \___ \   / /\ \    
-    | |  | | |_| | (_) | ||  __/\__ \ |_   ____) | / ____ \ _ 
+     __  __             _            _      _____
+    |  \/  |           | |          | |    / ____|    /\
+    | \  / |_   _  ___ | |_ ___  ___| |_  | (___     /  \
+    | |\/| | | | |/ _ \| __/ _ \/ __| __|  \___ \   / /\ \
+    | |  | | |_| | (_) | ||  __/\__ \ |_   ____) | / ____ \ _
     |_|  |_|\__, |\___/ \__\___||___/\__| |_____(_)_/    \_(_)
-             __/ |                                            
-            |___/                                             
+             __/ |
+            |___/
 *
 * Copyright (c) 2004-2016 Myotest SA
 *
-* PackageLicenseDeclared: Apache-2.0 
-* 
-* Licensed under the Apache License, Version 2.0 (the "License"); 
-* you may not use this file except in compliance with the License. 
-* You may obtain a copy of the License at 
-* 
-*     http://www.apache.org/licenses/LICENSE-2.0 
-* 
-* Unless required by applicable law or agreed to in writing, software 
-* distributed under the License is distributed on an "AS IS" BASIS, 
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
-* See the License for the specific language governing permissions and 
-* limitations under the License. 
+* PackageLicenseDeclared: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
 ****************************************************************************/
 
 #ifndef DATASET2_H
@@ -14291,11 +14291,11 @@ const sample_t samples2[] = {{0,-29,0,-13},
                             {145666,-29,0,-10},
                             {145678,-29,0,-1}};
 
-const rawdata_t rawdata2 = {samples2,                                //pointer to samples array
+const rawdata_t rawdata2 = {samples2,                               //pointer to samples array
                             sizeof(samples2) / sizeof(samples2[0]), //number of samples
-                            1000,                                      //tickHz
-                            4,                                          //gRange
-                            8};                                        //adcbits
+                            1000,                                   //tickHz
+                            4,                                      //gRange
+                            8};                                     //adcbits
 
 #ifdef  __cplusplus
 }
